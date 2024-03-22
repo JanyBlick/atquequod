@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validator should support custom validator 1`] = `"input must be a string"`;
+
+exports[`validator should support custom validator 2`] = `"unsupported schema"`;
+
+exports[`validator should throw error 1`] = `
+"[
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      0,
+      "name"
+    ],
+    "message": "Expected string, received number"
+  }
+]"
+`;
+
+exports[`validator should throw error 2`] = `
+"[
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      0,
+      "age"
+    ],
+    "message": "Expected number, received string"
+  }
+]"
+`;

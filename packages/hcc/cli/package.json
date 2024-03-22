@@ -1,0 +1,4 @@
+{
+  "main": "dist/midwayjs-hcc-cli.cjs.js",
+  "module": "dist/midwayjs-hcc-cli.esm.js"
+}

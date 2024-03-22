@@ -1,0 +1,16 @@
+service:
+  name: hooks
+
+provider:
+  name: aliyun
+  runtime: nodejs12
+  starter: '@midwayjs/fc-starter'
+
+aggregation:
+  all:
+    functionsPattern:
+      - '*'
+
+package:
+  include:
+    - build

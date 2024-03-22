@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file system router MidwayBundlerAdapter 1`] = `
+[
+  {
+    "file": "/api/foo.ts",
+    "trigger": {
+      "path": "/api/foo",
+      "type": "HTTP",
+    },
+  },
+  {
+    "file": "/api/foo.ts",
+    "trigger": {
+      "path": "/api/bar",
+      "type": "HTTP",
+    },
+  },
+]
+`;

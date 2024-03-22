@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`defineMeta 1`] = `
+{
+  "Http_Headers": true,
+  "Http_Params": true,
+  "Http_Query": true,
+  "Middleware": [
+    [Function],
+  ],
+  "Trigger": {
+    "method": "GET",
+    "path": undefined,
+    "requestClient": {
+      "client": "@midwayjs/rpc",
+      "fetcher": "http",
+    },
+    "type": "HTTP",
+  },
+  "USE_INPUT_METADATA": true,
+}
+`;
